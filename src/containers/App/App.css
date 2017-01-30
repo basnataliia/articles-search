@@ -1,0 +1,19 @@
+h1{
+  text-align: center;
+}
+
+.Article-Item{
+  margin-bottom: 20px;
+}
+
+.Search-block {
+  margin-bottom:20px;
+  text-align: center;
+}
+
+.No-result{
+  padding:30px;
+  /*max-width:300px;*/
+  margin:0 auto;
+  text-align: center;
+}

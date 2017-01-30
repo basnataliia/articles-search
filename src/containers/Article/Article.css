@@ -1,0 +1,29 @@
+.Article-title{
+  text-align: center;
+}
+
+.grey{
+  color:#bfbfbf;
+}
+
+.Link{
+  color:#00bcd4;
+}
+
+.Card-text{
+  max-width:600px;
+}
+
+.Article-Item{
+  margin-top:20px;
+  padding:50px;
+}
+
+.Left-indent{
+  margin-left: 15px;
+}
+
+.Article-image{
+  margin-bottom:30px;
+  max-width:200px;
+}
