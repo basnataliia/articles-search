@@ -8,7 +8,6 @@ import Image from './article-image';
 
 
 const ArticleDetails = (props) => {
-  // let author = (props.article.byline) ? props.article.byline.original :' ';
   const url = 'http://www.nytimes.com/';
   let name = (props.articleDetail.headline.name) ? props.articleDetail.headline.name : props.articleDetail.headline.main;
   let image = (props.articleDetail.multimedia.length) ? url + props.articleDetail.multimedia[0].url : '';

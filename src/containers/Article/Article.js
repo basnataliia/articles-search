@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import './Article.css';
 import $ from 'jquery';
 import ArticleDetails from '../../components/article-details';
-
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-
-// import {Link} from 'react-router';
 
 const API_KEY = '7047f9d805d940f5bda594e8fd71c086';
 export default class Article extends Component {

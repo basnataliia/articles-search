@@ -21,24 +21,24 @@ describe('<SearchArticle />', () => {
 
   });
 
-	  it('should render an <RaisedButton />', () => {
+  it('should render an <RaisedButton />', () => {
 
-	    const wrapper = shallow(
-	      <SearchArticle searchForArticle={() => {}}/>
-	    );
+    const wrapper = shallow(
+      <SearchArticle searchForArticle={() => {}}/>
+    );
 
-	    expect(wrapper.find(RaisedButton)).to.have.length(1);
+    expect(wrapper.find(RaisedButton)).to.have.length(1);
 
-	});
+});
 
 
-	   it('should render an <TextField />', () => {
+   it('should render an <TextField />', () => {
 
-	    const wrapper = shallow(
-	      <SearchArticle searchForArticle={() => {}}/>
-	    );
+    const wrapper = shallow(
+      <SearchArticle searchForArticle={() => {}}/>
+    );
 
-	    expect(wrapper.find(TextField)).to.have.length(1);
+    expect(wrapper.find(TextField)).to.have.length(1);
 
 	});
 
