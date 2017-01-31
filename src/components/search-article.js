@@ -22,7 +22,7 @@ export default class SearchArticle extends Component {
                 }
               }
             }
-            hintText="Search for article..."/>
+            hintText="Search for articles..."/>
 
         <RaisedButton
           label="Search"
